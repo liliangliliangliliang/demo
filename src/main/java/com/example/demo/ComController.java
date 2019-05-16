@@ -4,22 +4,21 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class Controller {
+public class ComController {
 
-    @RequestMapping("one")
+    @RequestMapping("four")
     public String a(){
-        return "一个人";
+        return "四个人";
     }
 
-    @RequestMapping("two")
+    @RequestMapping("five")
     public String b(){
-        return "二个人";
+        return "五个人";
     }
 
-    @RequestMapping("three")
+    @RequestMapping("six")
     public String c(){
-        return "三个人";
+        return "六个人";
     }
-
 
 }
